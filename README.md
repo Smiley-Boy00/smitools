@@ -10,7 +10,7 @@ Flexible Shape Creator Library (FLS): ver. 1.0.0<br />
 UE Control Rig Shapes Maker & Exporter: ver. 0.2.0<br />
 
 ### Unreal Engine Source Code:
-Maya to Unreal Loader (Mtou Unreal side): ver. 0.1.0<br />
+Maya to Unreal Loader (Mtou Unreal side): ver. 1.0.0<br />
 Unreal Mtou Reload Button: ver. 0.1.0<br />
 
 ## Installation Process:
