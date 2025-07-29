@@ -5,8 +5,8 @@ Note: As of the current version, some manual installation/linking is required in
 
 ## Included tools and current versions
 ### Maya Source Code:
-Maya to Unreal Exporter (MtoU Maya side): ver. 1.0<br />
-Flexible Shape Creator Library (FLS): ver. 1.0<br />
+Maya to Unreal Exporter (MtoU Maya side): ver. 1.0.0<br />
+Flexible Shape Creator Library (FLS): ver. 1.0.0<br />
 UE Control Rig Shapes Maker & Exporter: ver. 0.2.0<br />
 
 ### Unreal Engine Source Code:
