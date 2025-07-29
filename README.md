@@ -29,5 +29,4 @@ Unreal Mtou Reload Button: ver. 0.1.0<br />
   In Startup Scripts, add a section and write "mtouLoader.py" in order to load the file into the project.<br />
   Optionally, add a section and write "mtouReloadButton.py" in order to load the button reloader file into the project.<br />
 - Restart your Unreal Engine Project.<br />
-Note: This procress has to be set for every project you would like to enable the loader module.
-
+Note: This process has to be set for every project you would like to enable the loader module.
