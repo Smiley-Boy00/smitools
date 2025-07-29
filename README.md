@@ -1,4 +1,4 @@
-# Smiley Tools v1.0 for Autodesk Maya & Unreal Engine
+# Smiley Tools v0.1.0 for Autodesk Maya & Unreal Engine
 
 Smiley Tools is a script/tool package that comes as a plugin for Autodesk Maya DCC with linking for quick export/import for Unreal Engine.
 Note: As of the current version, some manual installation/linking is required in order for the Unreal Engine to work as expected. 
@@ -7,18 +7,18 @@ Note: As of the current version, some manual installation/linking is required in
 ### Maya Source Code:
 Maya to Unreal Exporter (MtoU Maya side): ver. 1.0<br />
 Flexible Shape Creator Library (FLS): ver. 1.0<br />
-UE Control Rig Shapes Maker & Exporter: ver. 1.0<br />
+UE Control Rig Shapes Maker & Exporter: ver. 0.2.0<br />
 
 ### Unreal Engine Source Code:
-Maya to Unreal Loader (Mtou Unreal side): ver. 1.0<br />
-Unreal Mtou Reload Button: ver. 1.0<br />
+Maya to Unreal Loader (Mtou Unreal side): ver. 0.1.0<br />
+Unreal Mtou Reload Button: ver. 0.1.0<br />
 
 ## Installation Process:
-- Download the smitools_Plugin.zip file and extract its contents
+- Download the smitools.zip file and extract its contents
 ### Maya Side:
 - Place the folder contents into your Maya directory folder and inside your plug-ins folder, if no plug-ins folder exists create one: <br />
   /maya/plug-ins (the maya folder is usually found in the documents folder).<br />
-  IMPORTANT: Do not place the smitools_Plugin folder itself, just its contents.
+  IMPORTANT: Do not place the smitools folder itself, just its contents.
 - Inside Maya, go to Windows -> Settings/Preferences -> Plug-in Manager.<br />
   In the Plug-in Manager enable the Smiley_Tools.py plugin, a tab named "Smiley Tools" should appear where you can start using the tools.
 ### Unreal Side:
@@ -31,4 +31,3 @@ Unreal Mtou Reload Button: ver. 1.0<br />
 - Restart your Unreal Engine Project.<br />
 Note: This procress has to be set for every project you would like to enable the loader module.
 
-https://github.com/Smiley-Boy00/smitools/releases/tag/Plugin
