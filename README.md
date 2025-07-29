@@ -14,11 +14,11 @@ Maya to Unreal Loader (Mtou Unreal side): ver. 1.0<br />
 Unreal Mtou Reload Button: ver. 1.0<br />
 
 ## Installation Process:
-- Download the Smiley_Tools.zip file and extract its contents
+- Download the smitools_Plugin.zip file and extract its contents
 ### Maya Side:
 - Place the folder contents into your Maya directory folder and inside your plug-ins folder, if no plug-ins folder exists create one: <br />
   /maya/plug-ins (the maya folder is usually found in the documents folder).<br />
-  IMPORTANT: Do not place the Smiley_Tools folder itself, just its contents.
+  IMPORTANT: Do not place the smitools_Plugin folder itself, just its contents.
 - Inside Maya, go to Windows -> Settings/Preferences -> Plug-in Manager.<br />
   In the Plug-in Manager enable the Smiley_Tools.py plugin, a tab named "Smiley Tools" should appear where you can start using the tools.
 ### Unreal Side:
@@ -30,3 +30,5 @@ Unreal Mtou Reload Button: ver. 1.0<br />
   Optionally, add a section and write "mtouReloadButton.py" in order to load the button reloader file into the project.<br />
 - Restart your Unreal Engine Project.<br />
 Note: This procress has to be set for every project you would like to enable the loader module.
+
+https://github.com/Smiley-Boy00/smitools/releases/tag/Plugin
