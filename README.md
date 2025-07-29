@@ -17,7 +17,7 @@ Unreal Mtou Reload Button: ver. 1.0<br />
 - Download the Smiley_Tools.zip file and extract its contents
 ### Maya Side:
 - Place the folder contents into your Maya directory folder and inside your plug-ins folder, if no plug-ins folder exists create one: <br />
-  /maya/plug-ins/(Smiley_Tools contents) (the maya folder is usually found in the documents folder).<br />
+  /maya/plug-ins (the maya folder is usually found in the documents folder).<br />
   IMPORTANT: Do not place the Smiley_Tools folder itself, just its contents.
 - Inside Maya, go to Windows -> Settings/Preferences -> Plug-in Manager.<br />
   In the Plug-in Manager enable the Smiley_Tools.py plugin, a tab named "Smiley Tools" should appear where you can start using the tools.
