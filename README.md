@@ -25,8 +25,8 @@ Unreal Mtou Reload Button: ver. 1.0<br />
 - Launch the Unreal Engine project where you would like the import capability enabled and linked.
 - Go to Settings -> Plugins, search for Python Editor Script Plugin and make sure is enabled.
 - Once enabled, go to Settings -> Project Settings -> Plugins -> Python:<br />
-  In Additional Paths, add the folder directory where the mtouLoader.py is saved in your system.
-  In Startup Scripts, add a section and write "mtouLoader.py" in order to load the file into the project.
-  Optionally, add a section and write "mtouReloadButton.py" in order to load the button reloader file into the project.
-- Restart your Unreal Engine Project.
+  In Additional Paths, add the folder directory where the mtouLoader.py is saved in your system.<br />
+  In Startup Scripts, add a section and write "mtouLoader.py" in order to load the file into the project.<br />
+  Optionally, add a section and write "mtouReloadButton.py" in order to load the button reloader file into the project.<br />
+- Restart your Unreal Engine Project.<br />
 Note: This procress has to be set for every project you would like to enable the loader module.
