@@ -198,7 +198,6 @@ class mtouExporterUI():
             self._checkerObjDict[checker['function']] = chk_obj
             self._checkerObjList.append(chk_obj)
 
-
     def change_export_type(self, *args) -> None:
         export_type = mc.optionMenu(self.exportType_tab, query=True, value=True)
         if export_type=='OBJ':
@@ -234,15 +233,15 @@ class mtouExporterUI():
         self._separators.clear()
 
     def print_UE_project(self, *args) -> None:
+        if not self.fileExists:
+            mc.warning('No UE project has been loaded.')
+            return
+        
         if self.fileExists:
             ue_path=md.load_data(self._folder_path, 'ue_path.json')
             ue_proj=ue_path.get("Current Project")
             # print and write path to script editor and command line outlog
             sys.stdout.write(f"Current UE Project: {ue_proj}\n")
-
-        else:
-            mc.warning('No UE project has been loaded.')
-            return
 
     def _get_checkbox_state(self, name) -> bool:
         '''Returns the query of a check box object based on the object function's name (if it exists).'''
