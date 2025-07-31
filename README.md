@@ -1,4 +1,4 @@
-# Smiley Tools v0.1.0 for Autodesk Maya & Unreal Engine
+# Smiley Tools v0.1.1 for Autodesk Maya & Unreal Engine
 
 Smiley Tools is a script/tool package that comes as a plugin for Autodesk Maya DCC with linking for quick export/import for Unreal Engine.
 Note: As of the current version, some manual installation/linking is required in order for the Unreal Engine to work as expected. 
