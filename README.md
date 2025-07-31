@@ -19,6 +19,7 @@ Unreal Mtou Reload Button: ver. 0.1.0<br />
 - Place the folder contents into your Maya directory folder and inside your plug-ins folder, if no plug-ins folder exists create one: <br />
   /maya/plug-ins (the maya folder is usually found in the documents folder).<br />
   IMPORTANT: Do not place the smitools folder itself, just its contents.
+- Place the icons folder inside /maya/prefs. If you already have an icons folder, place the contents inside that folder.
 - Inside Maya, go to Windows -> Settings/Preferences -> Plug-in Manager.<br />
   In the Plug-in Manager enable the Smiley_Tools.py plugin, a tab named "Smiley Tools" should appear where you can start using the tools.
 ### Unreal Side:
