@@ -32,4 +32,6 @@ Unreal Mtou Reload Button: ver. 0.1.0<br />
 - Restart your Unreal Engine Project.<br />
 Note: This process has to be set for every project you would like to enable the loader module.
 
+Installation Guide Video: https://youtu.be/ALA_9gwyVl4
+
 https://github.com/Smiley-Boy00/smitools/releases
