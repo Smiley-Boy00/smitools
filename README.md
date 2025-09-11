@@ -2,12 +2,12 @@
 ![Python](https://img.shields.io/badge/python-ffdd54?logo=python&logoColor=white) ![Autodesk Maya](https://img.shields.io/badge/Autodesk%20Maya-00AEEF?logo=autodesk&logoColor=white) ![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-0E1128?logo=unrealengine&logoColor=white) ![Latest Commit](https://img.shields.io/github/last-commit/Smiley-Boy00/smitools) ![Latest Release](https://img.shields.io/github/v/release/Smiley-Boy00/smitools) ![OS](https://img.shields.io/badge/OS-Windows-blue?logo=windows) ![Free for Commercial Use](https://img.shields.io/badge/Free%20for%20Commercial%20Use-✔-brightgreen)
 
 ## Table of Contents
-- [About](#-about)
-- [Tool Versions & Content](#-tool-versions-and-contents)
-- [How to Install](#-how-to-install)
-- [Download Latest Release](#-download-latest-release)
-- [Feedback](#-feedback)
-- [Contacts](#%EF%B8%8F-contacts)
+- [About](#fax-about)
+- [Tool Versions & Content](#bulb-tool-versions-and-content)
+- [How to Install](#bookmark_tabs-sparkles-how-to-install)
+- [Download Latest Release](#inbox_tray-download-latest-release)
+- [Feedback](#speech_balloon-feedback)
+- [Contacts](#-contacts)
 
 ## :fax: About
 Smiley Tools is a python script/tool that comes packaged as a plugin for Autodesk Maya DCC with functionality to link Unreal Engine for quick export/import.
