@@ -12,7 +12,6 @@ uTransformMatrixID = om.MTypeId(0x87015)
 plugin_path = mc.pluginInfo("Smiley_Tools.py", query = True, path = True)
 plugin_dir = path.dirname(plugin_path)
 scripts_dir = path.join(plugin_dir, 'Smiley_Scripts')
-imgs = path.join(scripts_dir, 'library', 'imgs')
 
 if scripts_dir not in sys.path:
     sys.path.append(scripts_dir)
@@ -65,7 +64,6 @@ def initializer():
 def initializePlugin(plugin):
     mplugin = ommp.MFnPlugin(plugin, "Smiley", "1.0" , "Any")
     matrix = ommp.MPxTransformationMatrix
-    iconPath = path.join(imgs, 'icons', 'out_unrealNode.png') # Your custom icon file
     mplugin.registerTransform(uNodeTypeName, node_id, creator, initializer, matrix, uTransformMatrixID)
     create_menu()
 
