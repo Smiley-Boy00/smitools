@@ -33,20 +33,20 @@ class fbx:
 
     def set_UE_project_path(self, ue_path:str, folder_name='MayaImports'):
         # create a path inside the UE's project contents folder where the mesh will be exported to
-        self.export_path = os.path.join(f'{ue_path}', 'Content', f'{folder_name}')
+        self.export_path = os.path.join(ue_path, 'Content', folder_name)
 
         make_dir_if_none_exists(self.export_path)
         
     def move_sel_to_origin(self, obj_selection):
         for obj in obj_selection:
             # store every obj with their translation values 
-            self._obj_placement[f'{obj}'] = mc.xform(obj, worldSpace=True, query=True, translation=True)
+            self._obj_placement[obj] = mc.xform(obj, worldSpace=True, query=True, translation=True)
             # place the obj at the world origin [worldSpace=0,0,0]
             md.move_to_origin(obj)
 
     def place_sel_to_original_pos(self, obj_selection):
         for obj in obj_selection:
-            md.place_mesh_back(self._obj_placement[f'{obj}'], obj)
+            md.place_mesh_back(self._obj_placement[obj], obj)
     
     def export_smoothing_groups(self, active: bool=False):
         mel_value = (str(active)).lower()
@@ -106,7 +106,7 @@ class fbx:
         if not self.export_path:
             self.export_path = md.get_documents_folder()
 
-        export_file = os.path.join(f"{self.export_path}", f"{self._file_name}")
+        export_file = os.path.join(self.export_path, self._file_name)
 
         #'-f' stands for "File" & '-s' for "Selected"; the command exports the selected mesh into a .fbx file
         mel.eval('FBXExport -f "{}" -s'.format(export_file.replace('\\', '/')))

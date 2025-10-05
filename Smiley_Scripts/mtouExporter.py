@@ -240,11 +240,11 @@ class mtouExporterUI():
         if self.fileExists:
             ue_path=md.load_data(self._folder_path, 'ue_path.json')
             ue_proj=ue_path.get("Current Project")
-            # print and write path to script editor and command line outlog
+            # print and write path to script editor and command line log
             sys.stdout.write(f"Current UE Project: {ue_proj}\n")
 
     def _get_checkbox_state(self, name) -> bool:
-        '''Returns the query of a check box object based on the object function's name (if it exists).'''
+        '''Returns the query of a check box object based on the object function's name as long as it exists.'''
         return mc.checkBox(self._checkerObjDict[name], query=True, value=True)
 
     def _do_FBX_export(self, *args) -> None:
@@ -395,7 +395,7 @@ class mtouExporterUI():
         if not mesh_file.endswith('.obj'):
             mesh_file += ".obj"
         
-        ue_dict = md.load_data(self.filePath)
+        ue_dict = md.load_data(self._folder_path, 'ue_path.json')
         ue_project_path = ue_dict.get('Current Project')
 
         if folder_name:
@@ -420,7 +420,7 @@ class mtouExporterUI():
         if move_mesh:
             for mesh in mesh_selection:
                 # store every mesh with their translation values 
-                obj_placement[f'{mesh}'] = mc.xform(mesh, worldSpace=True, query=True, translation=True)
+                obj_placement[mesh] = mc.xform(mesh, worldSpace=True, query=True, translation=True)
                 # place the mesh at the world origin [worldSpace=0,0,0]
                 md.move_to_origin(mesh)
 
